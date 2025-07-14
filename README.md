@@ -1,1 +1,73 @@
 # burjettravel1
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Burjet Travel Agency</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      background-color: rgb(206, 182, 230);
+    }
+    header{
+        text-align: center;
+    }
+    header, nav, footer {
+      padding: 10px;
+    }
+    nav a {
+      margin: 0 10px;
+    }
+    .content {
+      padding: 10px;
+    }
+    ul, ol {
+      text-align: left;
+      margin-left: 20px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Burjet Travel Agency</h1>
+    <p>Explore the world with us</p>
+  </header>
+
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#flights">Flights</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <div class="content">
+    <h2>Flights</h2>
+    <p>We offer two main types of flights:</p>
+    <ol>
+      <li>Local Flights
+        <ul>
+          <li>Mogadishu to Hargeisa</li>
+          <li>Mogadishu to Garowe</li>
+          <li>Kismayo to Bosaso</li>
+        </ul>
+      </li>
+      <li>International Flights
+        <ul>
+          <li>Mogadishu to Nairobi</li>
+          <li>Mogadishu to Dubai</li>
+          <li>Mogadishu to Istanbul</li>
+        </ul>
+      </li>
+    </ol>
+
+    <h2>Contact Us</h2>
+    <p>Email: info@burjettravel.com</p>
+    <p>Phone: +252 61 2345678</p>
+    <p>Location: Mogadishu, Somalia</p>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Burjet Travel Agency</p>
+  </footer>
+</body>
+</html>
